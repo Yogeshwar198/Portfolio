@@ -176,3 +176,42 @@
         height: 6px;
     }
 }
+
+@media (max-width:500px) {
+    .about {
+        /* gap: 80px; */
+        width: 100%;
+        margin: 50px 70px;
+        align-items: start;
+    }
+
+    .about-title h1{
+        font-size: 50px;
+        padding: 0;
+        margin-left: 80px;
+    }
+
+    .about-title img {
+        width: 80px;
+        left: 150px;
+        margin-left: 80px;
+    }
+
+    .about-para {
+        width: 100%;
+        font-size: 18px;
+        line-height: 32px;
+        margin-left: 10px;
+    }
+    .moving-div {
+        /* background-color: red; */
+        margin-top: 10vh;
+        bottom: 3%;
+        white-space: nowrap;
+        padding: 1.2vw;
+        overflow: hidden;
+        width: 44%;
+        font-size: xx-large;
+        margin-left: 100px;
+    } 
+}
