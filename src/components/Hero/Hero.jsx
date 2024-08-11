@@ -6,7 +6,7 @@ import Resume from '../../assets/Resume.pdf';
 
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div id='home' className='hero'>
             <div className='hero-img'>
                 <img src={profile_img} alt="" />
             </div>
