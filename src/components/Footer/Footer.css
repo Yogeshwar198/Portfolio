@@ -107,6 +107,10 @@
         padding: 15px 29px;
     }
 
+    .footer-bottom-left {
+        font-size: 13.6px;
+    
+    }
 }
 
 @media (max-width:500px) {
